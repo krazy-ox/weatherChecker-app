@@ -113,4 +113,140 @@ body {
     border-radius: 20px;
     width: 300px;
     background: #A855F7;
+
+}
+
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 480px) {
+    .card {
+        width: 95%;
+        margin: 50px auto 0;
+        padding: 30px 20px;
+        border-radius: 16px;
+    }
+
+    .search input {
+        padding: 8px 15px;
+        height: 50px;
+        font-size: 14px;
+        margin-right: 12px;
+        border-radius: 20px;
+    }
+
+    .search button {
+        height: 35px;
+        width: 35px;
+    }
+
+    .search button img {
+        width: 20px;
+    }
+
+    .weather-icon {
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+        margin-top: -15px;
+    }
+
+    .details {
+        padding: 0 10px;
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .col {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .col img {
+        width: 30px;
+        margin-right: 8px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 20px;
+    }
+
+    .error {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+}
+
+/* Media Queries for Tablets */
+@media (max-width: 768px) and (min-width: 481px) {
+    .card {
+        width: 85%;
+        margin: 75px auto 0;
+        padding: 35px 25px;
+        border-radius: 20px;
+    }
+
+    .search input {
+        padding: 9px 20px;
+        height: 55px;
+        font-size: 15px;
+        margin-right: 14px;
+    }
+
+    .search button {
+        height: 38px;
+        width: 38px;
+    }
+
+    .search button img {
+        width: 24px;
+    }
+
+    .weather-icon {
+        width: 140px;
+        margin-top: 22px;
+    }
+
+    .weather h1 {
+        font-size: 65px;
+    }
+
+    .weather h2 {
+        font-size: 45px;
+        margin-top: -18px;
+    }
+
+    .details {
+        padding: 0 15px;
+        margin-top: 40px;
+    }
+
+    .col img {
+        width: 35px;
+        margin-right: 9px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 25px;
+    }
+
+    .error {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        border-radius: 18px;
+    }
 }
